@@ -78,4 +78,12 @@ const library = {
     }
   }
 };
+
+library.printTracks();
+library.printPlaylists();
+library.printPlaylist("p01");
+library.addTrack("Let It Happen", "Tame Impala", "Currents");
+library.addPlaylist("Chill Beats");
+library.printSearchResults("john");
+
   
